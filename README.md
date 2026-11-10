@@ -23,7 +23,7 @@ As coordenadas são sempre informadas como `(linha, coluna)`, começando em `0`.
 ### Regras do jogo
 
 1. **Criação da partida:** as 40 minas são sorteadas em posições diferentes no momento em que a partida é criada. Também é possível informar as 40 posições no construtor (é assim que os testes deixam o tabuleiro previsível). Não existe proteção para a primeira jogada: se a primeira casa revelada tiver mina, a partida é perdida.
-2. **Revelar casa com mina:** a partida termina em **derrota**. Todas as minas passam a ficar reveladas; as casas sem mina que ainda estavam fechadas continuam ocultas.
+2. **Revelar casa com mina:** a partida termina em **derrota**. Todas as minas passam a ficar reveladas, inclusive as que estavam com bandeira (que passam a aparecer como `'*'`); as casas sem mina que ainda estavam fechadas continuam ocultas.
 3. **Revelar casa sem mina:** a casa mostra quantas minas existem nas até 8 casas vizinhas (horizontal, vertical e diagonal). A própria casa não entra na contagem.
 4. **Abertura em cascata:** se a casa revelada tiver `0` minas vizinhas, todas as vizinhas são abertas automaticamente, e o processo se repete para cada nova casa com `0`. A cascata para nas casas numeradas e nunca abre minas nem casas com bandeira.
 5. **Bandeiras:**
@@ -64,7 +64,7 @@ O jogo deve ficar no arquivo `src/CampoMinado.js`, exportando a classe com `modu
 
 ### Como executar
 
-Requisitos: Node.js 18 ou superior.
+Requisitos: Node.js 18.14 ou superior (recomendado usar uma versão LTS: 20, 22 ou 24).
 
 ```bash
 npm install
