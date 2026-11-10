@@ -1,0 +1,13 @@
+{
+  "name": "desafio_teste_campo_minado",
+  "version": "1.0.0",
+  "description": "Casos de teste em Jest para um Campo Minado de tabuleiro 18 x 14 com 40 bombas",
+  "main": "src/CampoMinado.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
