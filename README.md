@@ -184,6 +184,6 @@ Os testes do modo aleatório (CT08 a CT11, CT24 e CT50) não dependem de onde as
 
 ## 3. Colaboradores
 
-| Colaborador | GitHub |
-| --- | --- |
-| andreperinn | [@andreperinn](https://github.com/andreperinn) |
+| Nome | RA | Turma | GitHub |
+| --- | --- | --- | --- |
+| André Perin Geraldo | 24017529-2 | ESOFT6SA | [@andreperinn](https://github.com/andreperinn) |
